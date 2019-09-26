@@ -1,0 +1,94 @@
+#footerbox {
+    margin: 0;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    margin: 0em 0em 5em 0em;
+    bottom: 0;
+}
+
+footer a {
+    margin: 0;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    margin: 0em 0em 5em 0em;
+}
+
+footer {
+    height: auto;
+    bottom: 0;
+
+}
+
+footer .social {
+    letter-spacing: 0.1em;
+    line-height: 1.8em;
+    display: inline-block;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    text-decoration: none;
+    margin: 25px 80px 0px 80px;
+    padding: 0;
+    font-size: 16px;
+}
+
+#footerlogo {
+    align-items: center;
+}
+
+footer .social i {
+    font-size: 40px;
+}
+
+footer .social:hover {
+    color: #1C1C1C;
+}
+
+footer #top-button {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    float: right;
+    text-decoration: none;
+    bottom: 50px;
+    right: 40px;
+    padding: 0;
+    font-size: 16px;
+}
+
+
+
+
+footer #top-button i {
+    font-size: 40px;
+}
+
+footer #top-button:hover {
+    color: #1C1C1C;
+}
+
+footer h5 {
+    color: #1C1C1C;
+    padding: 30px 20px 15px 20px;
+}
+
+footer {
+    margin: 0em 0em 5em 0em;
+}
+
+#footer_text {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1C1C1C;
+    text-align: center;
+    padding: 5px 70px 5px 70px;
+}
+
+#icon {
+    margin: 0px 0px 30px 0px;
+}

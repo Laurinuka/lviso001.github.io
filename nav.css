@@ -1,0 +1,127 @@
+#navbar {
+    opacity: 0.9;
+    background-color: #fff;
+    width: 22%;
+    margin: 0em;
+    font-size: 13px;
+    z-index: +5;
+    font-family: 'Volkhov', serif;
+    float: left;
+    top: 0;
+    left: 0;
+    padding: 0.5em 0em 0em 0em;
+
+}
+
+#navbar2 {
+    height: 100%;
+    opacity: 0.9;
+    background-color: #fff;
+    width: 22%;
+    margin: 0em;
+    font-size: 13px;
+    z-index: +5;
+    font-family: 'Volkhov', serif;
+    float: left;
+    top: 0;
+    left: 0;
+    padding: 0.5em 0em 0em 0em;
+    position: fixed;
+
+}
+
+/*diplay:flex evenly spaces things out*/
+
+/* Style the navbar links */
+
+#navbar li {
+    padding: 0px 28px 0px 55px;
+    float: right;
+}
+
+#navbar2 li {
+    padding: 0px 28px 0px 15px;
+    float: right;
+}
+
+#navlogo,
+#navlogo2 {
+    padding: 0px 0px 0px 0px;
+    margin: 5px 10px 12px 20px;
+    float: left;
+}
+
+#mobnavlogo {
+    z-index: +4;
+}
+
+#fnavbar {
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+
+#navbar .navlink {
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    width: 100%;
+    padding: 1em 3.1em 1em 3.2em;
+    margin-right: 0;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#navbar2 .navlink {
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    width: 100%;
+    padding: 1em 3.1em 1em 3.2em;
+    margin-right: 0;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#navbar .navlink:hover {
+    background-color: #fff;
+    /*    color: #CC6A18;*/
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+
+}
+
+#navbar2 .navlink:hover {
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    justify-content: space-around;
+
+}
+
+#navbar2 ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 36% 0px 0px 0px;
+    overflow: hidden;
+    justify-content: space-around;
+
+}

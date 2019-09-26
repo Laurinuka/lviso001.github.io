@@ -1,0 +1,212 @@
+p {
+    font-size: 19px;
+    margin: 0px;
+}
+
+.imagedescription {
+    font-family: 'Volkhov', serif;
+
+    color: #000;
+    margin: 20px;
+    text-align: center;
+    line-height: normal;
+
+}
+
+#imgd {
+    font-size: 15px;
+}
+
+#sectiondescription {
+    font-size: 18px;
+
+}
+
+.project {
+    color: black;
+    margin: 3%
+}
+
+#rights {
+    text-align: left;
+    margin: 10px 10px 10px 100px;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+#logo {
+    font-family: 'Volkhov', serif;
+}
+
+.pg {
+    padding: 40px 45px 80px 45px;
+    text-align: center;
+    color: #000;
+    font-family: 'Volkhov', serif;
+
+}
+
+#abouttext {
+    color: black;
+    margin: 20px 20px 190px 20px;
+    text-align: left;
+}
+
+#projecttext {
+    color: black;
+    margin: auto;
+    text-align: left;
+    padding: 40px;
+    text-align: center;
+
+}
+
+#blogtext {
+    color: black;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#blogtexta {
+    color: black;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 19px;
+    margin: 0px;
+}
+
+
+#worktext {
+    color: black;
+    padding: 3%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 0% 2% 22% 2%;
+    margin: 0px;
+    font-size: 21px;
+    color: black;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 30px;
+    color: #000;
+    margin: 0px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 75%;
+    padding: 6% 2%;
+    font-family: 'Volkhov', serif;
+}
+
+h4 {
+    font-size: 30px;
+    color: #000;
+    margin: 0px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 75%;
+    padding: 4% 2%;
+}
+
+h6 {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+}
+
+h6 span {
+    color: white;
+    font: bold 24px/45px 'Volkhov', serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+h2 span.spacer {
+    padding: 0 5px;
+}
+
+
+
+.visit {
+    font-family: 'Volkhov', serif;
+    font-size: 20px;
+    color: #000;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+h5 {
+    font-family: 'Volkhov', serif;
+    font-size: 1px;
+    color: #000;
+    padding: 40px 40px 40px 40px;
+    margin: 0px;
+    text-align: left;
+}
+
+h6 {
+    font-family: 'Volkhov', serif;
+    font-size: 16px;
+    color: #000;
+    padding: 15px 40px 15px 40px;
+    margin: 0px;
+    text-align: left;
+}
+
+h7 {
+    font-family: 'Volkhov', serif;
+    font-size: 20px;
+    color: #000;
+    margin: 40px 20px 40px 20px;
+    text-align: center;
+}
+
+
+.cv {
+    font-family: 'Volkhov', serif;
+    font-size: 12px;
+    color: #000;
+    padding: 10px 40px 20px 40px;
+    margin: 0px;
+    text-align: center;
+}
+
+.cva {
+    font-family: 'Volkhov', serif;
+    font-size: 15px;
+    color: #000;
+    margin: 10px 20px 20px 20px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.cva:hover {
+    text-decoration: none;
+    color: #808D24;
+}

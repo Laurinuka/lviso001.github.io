@@ -1,0 +1,265 @@
+/*setting the websites body.*/
+
+body {
+    height: auto;
+    background-image: linear-gradient(120deg, #fffff 0%, #ebedee 100%);
+    font-family: 'Didact Gothic', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 0em;
+    margin: 0em;
+    font-size: .78em;
+    color: #484a4c;
+}
+
+/*Possitioning logo within the nav to the left hand side*/
+
+#logo {
+    float: left;
+}
+
+/*This is one page website to make it easier each subject has been assigned its own box valled page_. This is the title page where nothing is placved except for background image and nav.*/
+
+#page1 {
+    background-image: url(style/jelly_fish.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*color background and possitioning for title page*/
+
+#page1background {
+    margin: 8% 15% 5% 15%;
+    height: auto;
+    color: #fff;
+    width: 70%;
+    z-index: +2;
+}
+
+/*Sizing for work page*/
+
+#1page1 {
+    height: 80vh;
+    margin: 0;
+}
+
+
+
+/*sizing for all pages tgat follow. It will stay seperated until later date due to the fact some changes may take place*/
+
+#page2background,
+#page3background,
+#page4background,
+#page5background,
+#page6background,
+#page7background {
+    margin: 100px 80px 100px 80px;
+    height: auto;
+    color: #fff;
+}
+
+
+/* About page picture. This possitions the photo to the left hand side of the text. */
+
+#aboutpic {
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 20px;
+    width: 50%;
+}
+
+#blogpic {
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 20px;
+    height: 70%;
+
+}
+
+/* This sets up three colums for the photo galeries*/
+
+#photos {
+    /* Prevent vertical gaps */
+    line-height: 10px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5px;
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+    column-count: 3;
+    column-gap: 5px;
+}
+
+
+
+#photos img {
+    /* Just in case there are inline attributes */
+    margin: 1px;
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+/* footer beginig*/
+
+#container {
+
+    padding: 30px 30px 80px 30px;
+    margin: 0px;
+    width: 100%;
+}
+
+
+
+#contactdiv {
+    justify-content: center;
+    height: auto;
+    background-color: #ffffff;
+}
+
+#contact {
+    text-align: center;
+    padding: 40px 45px 0px 45px;
+
+
+}
+
+
+
+
+/*end*/
+
+/*end*/
+
+/* Box title*/
+
+.info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin: 0 15px;
+    padding: 40px 0 0 0;
+    height: 90px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow: 0 0 1px #fff,
+    0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* box text*/
+
+.info p {
+    color: #fff;
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.info p a {
+    display: block;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+/*Top scroll button*/
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 25px;
+    /* Place the button at the bottom of the page */
+    right: 35px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #333;
+    /* Set a background color */
+    color: white;
+    /* Arow color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 100px;
+    /* Rounded corners */
+    font-size: 22px;
+    /* Increase font size */
+    box-shadow: 0 6px #111;
+    margin: 20px auto;
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+    box-shadow: 0 4px #111;
+    bottom: 22px;
+
+}
+
+#myBtn:active {
+    box-shadow: 0 0 #111;
+    bottom: 18px;
+}
+
+
+
+
+.f_button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background: #fcad26;
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 40px;
+    margin: 20px auto;
+    box-shadow: 0 6px #efa424;
+    border-radius: 20px;
+}
+
+.f_button:hover {
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+}
+
+.f_button:active {
+    box-shadow: 0 0 #efa424;
+    top: 6px;
+}
+
+
+
+/*end*/
